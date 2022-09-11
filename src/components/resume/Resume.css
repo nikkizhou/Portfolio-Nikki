@@ -1,0 +1,18 @@
+.resume{
+  text-decoration: none;
+  position: fixed;
+  margin-left:8%;
+  margin-top: 35%;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+  .resume {
+      margin-left: 2%;
+      margin-top: 110%;
+    }
+}

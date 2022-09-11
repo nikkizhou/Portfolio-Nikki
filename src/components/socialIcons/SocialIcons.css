@@ -1,0 +1,22 @@
+.iconWrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 2em;
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 80%;   
+}
+
+.icon{
+  margin-bottom: 0.7em;
+  color: rgb(58, 58, 58);
+}
+
+
+@media (max-width: 768px) {
+  .iconWrapper {
+      margin-top: 20%;
+      margin-left: 69%;
+  }
+}
