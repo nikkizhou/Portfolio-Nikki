@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { ThemeToggle } from '../components/theme/ThemeToggle';
 import { Resume } from '../components/resume/Resume';
 import { SocialIcons } from '../components/socialIcons/SocialIcons';
 import { SideNavbar } from '../components/nav/SideNavbar';
