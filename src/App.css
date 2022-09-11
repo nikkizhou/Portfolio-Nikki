@@ -1,0 +1,16 @@
+
+
+.app{
+  background-image: 'url';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+
+
+const style= {
+  backgroundImage: `url(${image})`,
+  backgroundRepeat: 'no-repeat',
+    backgroundAttachment:'fixed'
+}

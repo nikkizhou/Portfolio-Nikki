@@ -3,6 +3,7 @@
 import self from "../assets/self.png"
 import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
+import project3 from "../assets/project3.png"
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 export const info = {
@@ -29,22 +30,22 @@ export const info = {
   ],
   socials: [
     {
-      link: "",
+      link: "https://www.facebook.com/nikki.zhou.90",
       icon: 'fa fa-facebook',
       label: 'facebook'
     },
     {
-      link: "",
+      link: "https://www.instagram.com/nikkizhou1993/",
       icon: 'fa fa-instagram',
       label: 'instagram'
     },
     {
-      link: "",
+      link: "https://github.com/nikkizhou",
       icon: "fa fa-github",
       label: 'github'
     },
     {
-      link: "",
+      link: "https://www.linkedin.com/in/nikki-zhou-b456ba152/",
       icon: "fa fa-linkedin",
       label: 'linkedin'
     },
@@ -139,6 +140,12 @@ export const info = {
       live: "",
       source: "https://github.com/nikkizhou/Living-Cost-App",
       image: project2
+    },
+    {
+      title: "Portfolio",
+      live: "",
+      source: "https://github.com/nikkizhou/portfolio",
+      image: project3
     },
   ]
 }
