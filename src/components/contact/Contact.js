@@ -1,15 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { useRef } from "react";
-import { Container, TextField } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import { Container, TextField } from "@mui/material";
 import Swal from 'sweetalert2';
 
 import emailjs from '@emailjs/browser';
 
 import './Contact.css';
 
-const useStyles = makeStyles((theme) => ({
+const styles = {
   main: {
     maxWidth: '100vw',
     marginTop: '3em',
@@ -22,14 +21,11 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     marginBottom: '2rem',
   },
-}));
+}
 
 
 
 export const Contact = () => {
-  const classes = useStyles();
-  const greetings = "Say hello.";
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -55,11 +51,11 @@ export const Contact = () => {
 
     return (
       <section id="contact">
-        <Container component="main" className={classes.main} maxWidth="md">
+        <Container component="main" style={styles.main} maxWidth="md">
           <div className="contact">
             <h1>Contact Me</h1>
             <div className="_form_wrapper">
-              <form ref={form} onSubmit={sendEmail} className={classes.form}>
+              <form ref={form} onSubmit={sendEmail} style={styles.form}>
                 <TextField
                   id="outlined-name-input"
                   label="Name"
@@ -67,7 +63,7 @@ export const Contact = () => {
                   size="small"
                   variant="filled"
                   name="name"
-                  className={classes.formfield}
+                  style={styles.formfield}
                 />
                 <TextField
                   id="outlined-password-input"
@@ -76,7 +72,7 @@ export const Contact = () => {
                   size="small"
                   variant="filled"
                   name="email"
-                  className={classes.formfield}
+                  style={styles.formfield}
                 />
                 <TextField
                   id="outlined-password-input"
@@ -87,7 +83,7 @@ export const Contact = () => {
                   minRows={5}
                   variant="filled"
                   name="message"
-                  className={classes.formfield}
+                  style={styles.formfield}
                 />
                 <button type="submit" value="Send" className="submit-btn">
                 <i className="fa fa-terminal"></i>

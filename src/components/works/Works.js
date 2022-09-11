@@ -1,23 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { useState } from "react";
-import { Container } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
 import './Works.css';
 
 import { info } from "../../info/info";
 
-const useStyles = makeStyles((theme) => ({
-  main: {
-    maxWidth: '100vw',
-    marginTop: '3em',
-    marginBottom: "auto",
-  },
-}));
+// const style= {
+//     maxWidth: '100vw',
+//     marginTop: '3em',
+//     marginBottom: "auto",
+// }
+
 
 
 export const Works = () => {
-  const classes = useStyles();
 
   return (
     <section id="works">

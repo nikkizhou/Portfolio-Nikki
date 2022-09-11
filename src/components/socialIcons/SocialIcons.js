@@ -1,11 +1,11 @@
 import React from 'react';
 import { info } from '../../info/info'
 import  './SocialIcons.css'
-
-const SocialIcon = (props) => {
-  const { link, icon, label } = props;
+/* eslint-disable react/prop-types */
+const SocialIcon = ({ link, icon, label }) => {
+  
   return (
-    <a target="_blank" href={link} className='icon'>
+    <a target="_blank" rel="noreferrer" href={link} className='icon'>
       <i className={icon}  />
     </a>
   );

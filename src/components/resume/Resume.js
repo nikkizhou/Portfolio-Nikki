@@ -1,6 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Typography, Link } from '@material-ui/core';
+import { Typography, Link } from '@mui/material';
 import ResumePDF from './../../assets/CV Nikki Zhou.pdf';
 import './Resume.css'
 import {
