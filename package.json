@@ -5,7 +5,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@emotion/react": "^11.10.4",
-    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.10.4",
     "font-awesome": "^4.7.0",
