@@ -4,6 +4,7 @@ import self from "../assets/self.png"
 import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
+import project4 from "../assets/project4.png"
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 export const info = {
@@ -146,6 +147,12 @@ export const info = {
       live: "",
       source: "https://github.com/nikkizhou/portfolio",
       image: project3
+    },
+    {
+      title: "Typescript - Puppies",
+      live: "",
+      source: "https://github.com/nikkizhou/FullStack-Puppies",
+      image: project4
     },
   ]
 }
