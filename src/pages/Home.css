@@ -1,0 +1,15 @@
+.navbar{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.home{
+  display: grid;
+  grid-template-columns: 10%,80%,10%;
+}
+
+.mainContent{
+  display: flex;
+  flex-direction: column;
+}

@@ -2,36 +2,15 @@
 import React from "react";
 import { useState } from "react";
 import "./SideNavbar.css";
+import {Link} from 'react-scroll'
 
 export const SideNavbar = () => {
-  const [activeNav, setActiveNav] = useState('#');
-
   return (
     <nav>
-      <a href="#" 
-        onClick={() => setActiveNav('#')}
-        className={activeNav === '#' ? 'active' : ''}
-      >
-        <h2>Home</h2>
-      </a>
-      <a href="#works"
-        onClick={() => setActiveNav('#works')}
-        className={activeNav === '#works' ? 'active' : ''}
-      >
-        <h2>Projects</h2>
-      </a>
-      <a href="#skills" 
-        onClick={() => setActiveNav('#skills')}
-        className={activeNav === '#skills' ? 'active' : ''}
-      >
-        <h2>Skills</h2>
-      </a>
-      <a href="#contact"
-        onClick={() => setActiveNav('#contact')}
-        className={activeNav === '#contact' ? 'active' : ''}
-      >
-        <h2>Contact</h2>
-      </a>
+      <Link activeClass="active" smooth spy to="about"><h2>Home</h2></Link>
+      <Link activeClass="active" smooth spy to="works"><h2>Projects</h2></Link>
+      <Link activeClass="active" smooth spy to="skills"><h2>Skills</h2></Link>
+      <Link activeClass="active" smooth spy to="contact"><h2>Contact</h2></Link>
     </nav>
   );
 };
