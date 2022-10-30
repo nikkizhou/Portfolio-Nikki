@@ -31,12 +31,12 @@ export const info = {
   ],
   socials: [
     {
-      link: "https://www.facebook.com/nikki.zhou.90",
+      link: "",
       icon: 'fa fa-facebook',
       label: 'facebook'
     },
     {
-      link: "https://www.instagram.com/nikkizhou1993/",
+      link: "",
       icon: 'fa fa-instagram',
       label: 'instagram'
     },

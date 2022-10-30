@@ -14,7 +14,7 @@ const style= {
 
 
 export const About = () => {
-  const aboutme = `I'm ${info.firstName} ${info.lastName}, a fullstack javascript developer in SALT. I'm a self-motivated and efficient person with a great
+  const aboutme = `I'm ${info.firstName} ${info.lastName}, a fullstack javascript developer at SALT. I'm a self-motivated and efficient person with a great
               passion for problem-solving and learning new things.`;
 
   return (
