@@ -1,6 +1,5 @@
 
 import React from "react";
-import { useState } from "react";
 import "./SideNavbar.css";
 import { Link } from 'react-scroll'
 import { Resume } from "../resume/Resume";

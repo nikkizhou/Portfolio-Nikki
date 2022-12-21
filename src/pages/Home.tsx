@@ -12,6 +12,12 @@ export const Home = () => {
   return (
     <div id="home" className='home'>
       <SideNavbar />
+      <div className='home_main'>
+        <About />
+        <Works />
+        <Skills />
+        <Contact/>
+      </div>
       <SocialIcons />
     </div>
   );

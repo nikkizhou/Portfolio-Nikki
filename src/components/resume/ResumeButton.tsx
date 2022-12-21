@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   svgHover: {
-    fill: 'pink',
+    fill: 'rgba(174, 203, 250, 0.838)',
     '&:hover': {
       transform: 'scale(1.1)',
     },
@@ -22,8 +22,8 @@ export const ResumeIcon = () => {
     <svg 
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      width='24'
-      height='24'
+      width='36'
+      height='36'
       style={styles.svgHover}
       
     >

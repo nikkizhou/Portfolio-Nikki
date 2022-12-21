@@ -2,25 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -10%;
+  margin-top: 6vh;
+  align-self: center;
 }
 
+ul{
+  padding-inline-start: 0;
+}
 .about_bio {
-  width: 80%;
-  margin-left: 7rem;
-  margin-right: 7rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-bottom: -8%;
+  justify-content: space-around;
+  width: 70%;
 }
 
 .about_desc{
-  width: 50%;
-  font-size: 1.5em;
-  align-self: center;
-  margin-left: -5%;
-  margin-bottom: 8%;
+  font-size: 1em;
+  font-weight: 450;
+  text-align: left;
+  width: 70%;
+  margin-top: 4%;
+  margin-bottom: 3%;
 }
 
 .heading {
@@ -29,76 +31,64 @@
   margin-left: 3%;
 }
 
-._img {
-  margin: 10em;
-  margin-right: 4em;
-  width: 13em;
-  height: 13em;
+.img {
+  width: 11em;
+  height: 11em;
   border-radius: 16px;
+}
+
+.content_wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.content_wrapper h1 {
+  font-size: xx-large;
+}
+
+.miniBio_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .miniBio{
   line-height: 2.3;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  font-weight: 600;
   list-style-type: none;
 }
 
-._content_wrapper {
-  width: 40%;
-}
-.contact-btn {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #464646;
-}
-.contact-btn:hover {
-  margin-right: 20px;
-  text-decoration: none;
-  background-color: #ec704c;
-}
 
 
-@media (max-width: 1024px) {
-  .about_bio {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-  ._content_wrapper {
-    width: 40%;
+@media (max-width: 1240px) {
+  .miniBio {
+    font-size: 1.2em;
   }
 }
 
 @media (max-width: 768px) {
-  .about {
-    margin-left: -12%;
+  .about { 
+    margin-top: 14vh;
   }
  
   .about_bio {
-    margin-left: 11.5em;
-    margin-right: 4em;
     flex-direction: column;
-  }
-  
-  .heading {
-    font-size: large;
+    width: 100%;
   }
 
-  ._img {
-    width: 45vw;
-    height: 45vw;
-    border-radius: 16px;
-    margin: 2em;
-    margin-left: -5em;
-
+  .img {
+    width: 35vw;
+    height: 35vw;
   }
-  ._content_wrapper {
-    width: 15em;
+
+  ul{
+    padding-inline-start:0;
   }
 
   .miniBio {
     line-height: 2.3;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .about_desc {

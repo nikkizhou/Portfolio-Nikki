@@ -11,18 +11,20 @@ export const info = {
   firstName: "Nikki",
   lastName: "Zhou",
   initials: "js",
+  aboutme: `I'm Nikki Zhou, a fullstack developer. I'm a self-motivated and efficient person with a great
+              passion for problem-solving and learning new things.`,
   position: "a Full Stack Developer",
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
   miniBio: [
     {
-      emoji: '☕',
-      text: 'Fueled by coffee'
-    },
-    {
       emoji: '🌎',
       text: 'Based in Oslo'
+    },
+    {
+      emoji: '💪',
+      text: 'Self-motivated'
     },
     {
       emoji: "🚀",
@@ -97,6 +99,10 @@ export const info = {
       {
         label: 'MongoDB',
         icon: 'https://img.icons8.com/color/mongodb.png'
+      },
+      {
+        label: 'PostgreSQL',
+        icon: 'https://img.icons8.com/color/postgresql'
       },
     ],
     Other: [

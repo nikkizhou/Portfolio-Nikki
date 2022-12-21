@@ -1,18 +1,16 @@
 nav {
- 
   display: flex;
   flex-direction: row-reverse;
   transform: rotate(-90deg) translate3d(-50%,0,0);
-  font-size: large;
+  font-size: medium;
   width: 3vw;
-  margin-top: 8%;
-
+  position: sticky;
+  top: 0;
 }
 
 nav a {
-  margin-right: 25px;
+  margin-left: 30px;
   text-decoration: none;
-  color: #575757;
 }
 
 nav a:hover {
@@ -26,6 +24,9 @@ nav a.active {
 
 @media (max-width: 768px) {
   nav {
-
+    font-size: small;
+  }
+  nav a {
+    margin-right: 20px;
   }
 }

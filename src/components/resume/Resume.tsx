@@ -1,9 +1,7 @@
 import React from 'react';
 import ResumePDF from './../../assets/CV Nikki Zhou.pdf';
 import './Resume.css'
-import {
-  ResumeIcon
-} from './ResumeButton';
+import { ResumeIcon} from './ResumeButton';
 
 
 export const Resume = () => {
@@ -15,7 +13,7 @@ export const Resume = () => {
       rel='noopener noreferrer'
     >
       <ResumeIcon />
-      <h3>Resume</h3>
+      <h3>CV</h3>
     </a>
  
   );
