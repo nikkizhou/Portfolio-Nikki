@@ -1,16 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { Container, Typography } from "@mui/material";
 import { info } from "../../info/info";
 
 
 import './About.css';
-
-const style= {
-    maxWidth: '100vw',
-    marginTop: '3em',
-    marginBottom: "auto",
-  }
 
 
 export const About = () => {
@@ -19,7 +12,6 @@ export const About = () => {
 
   return (
     <section id="about">
-      <Container component="main" style={ style} maxWidth="md">
         <div className="about">
           <div className="about_bio">
             <img className="_img" src={info.selfPortrait} />
@@ -34,7 +26,6 @@ export const About = () => {
           </div>
           <div className="about_desc">{aboutme}</div>
         </div>
-      </Container>
     </section>
   );
 };

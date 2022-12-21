@@ -1,5 +1,4 @@
 import React from 'react';
-import { Typography, Link } from '@mui/material';
 import ResumePDF from './../../assets/CV Nikki Zhou.pdf';
 import './Resume.css'
 import {
@@ -10,16 +9,14 @@ import {
 export const Resume = () => {
 
   return (
-    <div className='resume'>
-    <Link
+    <a className='resume'
       href= {`${ResumePDF}`}
       target='_blank'
       rel='noopener noreferrer'
-      
     >
       <ResumeIcon />
-      <p>Resume</p>
-      </Link>
-    </div>
+      <h3>Resume</h3>
+    </a>
+ 
   );
 };

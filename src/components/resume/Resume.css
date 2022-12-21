@@ -1,18 +1,13 @@
 .resume{
-  text-decoration: none;
-  position: fixed;
-  margin-left:8%;
-  margin-top: 35%;
-  transition: all 0.5s ease;
   display: flex;
+  flex-direction: column;
   align-items: center;
+ 
   flex-wrap: wrap;
+  margin-right: 115%;
 }
 
 
 @media (max-width: 768px) {
-  .resume {
-      margin-left: 2%;
-      margin-top: 110%;
-    }
+
 }
