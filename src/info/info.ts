@@ -1,10 +1,11 @@
 
 
 import self from "../assets/self.png"
-import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
-import project3 from "../assets/project3.png"
-import project4 from "../assets/project4.png"
+import que from "../assets/que.png"
+import livingCost from "../assets/livingCost.png"
+import portfolio from "../assets/portfolio.png"
+import puppy from "../assets/puppy.png"
+import ecommerce from "../assets/ecommerce.png"
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 export const info = {
@@ -80,6 +81,10 @@ export const info = {
         icon: 'https://img.icons8.com/plasticine/react.png'
       },
       {
+        label: 'ReactNative',
+        icon: 'https://miro.medium.com/max/1155/1*GkR93AAlILkmE_3QQf88Ug.png'
+      },
+      {
         label: 'Redux',
         icon: 'https://img.icons8.com/color/redux.png'
       },
@@ -97,6 +102,10 @@ export const info = {
         icon: 'https://img.icons8.com/fluent/node-js.png'
       },
       {
+        label: 'Express',
+        icon: 'https://cdn.iconscout.com/icon/free/png-256/express-2-282577.png'
+      },
+      {
         label: 'MongoDB',
         icon: 'https://img.icons8.com/color/mongodb.png'
       },
@@ -106,6 +115,26 @@ export const info = {
       },
     ],
     Other: [
+      {
+        label: 'NextJs',
+        icon: 'https://img.icons8.com/color/nextjs.png'
+      },
+      {
+        label: 'AWS',
+        icon: 'https://cdn.iconscout.com/icon/free/png-512/aws-1869025-1583149.png'
+      },
+      {
+        label: 'Docker',
+        icon: 'https://img.icons8.com/color/docker.png'
+      },
+      {
+        label: 'Firebase',
+        icon: 'https://img.icons8.com/color/firebase.png'
+      },
+      {
+        label: 'Auth0',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Logo_de_Auth0.svg'
+      },
       {
         label: 'Git',
         icon: 'https://img.icons8.com/color/git.png'
@@ -137,28 +166,39 @@ export const info = {
   ],
   portfolio: [
     {
+      title: "Nikki's EShop",
+      live: "https://living-cost-app-client.vercel.app/",
+      source: "https://github.com/nikkizhou/Nikkis-EShop",
+      description: 'A classical ecommerce app with features such as authentication, product search and filter, cart, orders, reviews, editing profile, and contact customer service.',
+      image: ecommerce,
+    },
+    {
       title: "Join The Queue",
-      live: "https://jointheqq.herokuapp.com/",
-      source: "https://github.com/nikkizhou/Q",
-      image: project1
+      live: "https://join-the-queue-client.onrender.com/",
+      source: "https://github.com/nikkizhou/Join-The-Queue",
+      description: 'A queue management app which is easier for users to queue up and easier for business to keep track of and manage their queue.',
+      image: que
     },
     {
       title: "Living Cost Comparing App",
-      live: "",
+      live: "https://living-cost-app-client.vercel.app/",
       source: "https://github.com/nikkizhou/Living-Cost-App",
-      image: project2
+      description: 'A fullstack app where user can compare living costs of two different cities. A search history bar is showed to make it easier for user to view the data of the searched cities again.',
+      image: livingCost
     },
     {
       title: "Portfolio",
       live: "",
       source: "https://github.com/nikkizhou/portfolio",
-      image: project3
+      description: 'A frontend app to introduce Nikki as a fullstack developer. Providing features such as cv downloading, social media connecting, contact form and so on.',
+      image: portfolio
     },
     {
       title: "Typescript - Puppies",
-      live: "",
-      source: "https://github.com/nikkizhou/FullStack-Puppies",
-      image: project4
+      live: "https://puppies-library.vercel.app/",
+      source: "https://github.com/nikkizhou/Puppy-Library",
+      description: 'A fullstack app with CRUD operations where user can add, edit, delete and check details of the puppies in the library.',
+      image: puppy
     },
   ]
 }

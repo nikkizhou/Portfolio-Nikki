@@ -8,9 +8,10 @@ export const Works = () => {
     <section id="works" className="works">
       <h1>Projects</h1>
       {info.portfolio.map((project,index) => (
-        <div className="project" key={ index }>
+        <div className="project" key={index}>
+          <h3>{project.title }</h3>
           <img src={project.image} alt={project.image} />
-          <h3>Description</h3>
+          <p>{ project.description}</p>
           <div className="iconlinks">
             <a href={project.live} >
               <i className='fa fa-safari' /> Live Deomo

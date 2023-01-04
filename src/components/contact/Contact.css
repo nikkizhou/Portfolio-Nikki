@@ -1,3 +1,26 @@
+input,textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #464646a9;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 120%;
+  resize: vertical;
+}
+
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -24,10 +47,12 @@
 }
 
 .submit-btn {
-  height: 30px;
+  height: 40px;
+  font-size: large;
   text-decoration: none;
   color: #ffff;
-  background-color: #0a0a0a;
+  background-color: #6b6969;
+  border: none;
   border-radius: 10px;
 }
 

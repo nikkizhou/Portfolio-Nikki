@@ -7,13 +7,22 @@
 }
 
 
-
 .project {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.project h3{
+  margin-block-start: 1rem;
+  margin-block-end: -2rem;
+}
+
+.project p {
+  width: 55vw;
+  margin-block-start:0;
 }
 
 .iconlinks{
@@ -73,5 +82,10 @@
     margin-left: 0.4rem;
     margin-bottom: 0.6rem;
     line-height: 2;
+  }
+
+  .project h3 {
+    margin-block-start: 1rem;
+    margin-block-end: -1rem;
   }
 }
