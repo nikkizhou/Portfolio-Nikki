@@ -167,7 +167,7 @@ export const info = {
   portfolio: [
     {
       title: "Nikki's EShop",
-      live: "https://living-cost-app-client.vercel.app/",
+      live: "https://products-blue-beta.vercel.app/",
       source: "https://github.com/nikkizhou/Nikkis-EShop",
       description: 'A classical ecommerce app with features such as authentication, product search and filter, cart, orders, reviews, editing profile, and contact customer service.',
       image: ecommerce,
