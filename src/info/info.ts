@@ -34,16 +34,6 @@ export const info = {
   ],
   socials: [
     {
-      link: "",
-      icon: 'fa fa-facebook',
-      label: 'facebook'
-    },
-    {
-      link: "",
-      icon: 'fa fa-instagram',
-      label: 'instagram'
-    },
-    {
       link: "https://github.com/nikkizhou",
       icon: "fa fa-github",
       label: 'github'
@@ -52,6 +42,16 @@ export const info = {
       link: "https://www.linkedin.com/in/nikki-zhou-b456ba152/",
       icon: "fa fa-linkedin",
       label: 'linkedin'
+    },
+    {
+      link: "https://www.facebook.com/nikki.zhou.90",
+      icon: 'fa fa-facebook',
+      label: 'facebook'
+    },
+    {
+      link: "",
+      icon: 'fa fa-instagram',
+      label: 'instagram'
     },
 
   ],
@@ -187,18 +187,18 @@ export const info = {
       image: livingCost
     },
     {
-      title: "Portfolio",
-      live: "",
-      source: "https://github.com/nikkizhou/portfolio",
-      description: 'A frontend app to introduce Nikki as a fullstack developer. Providing features such as cv downloading, social media connecting, contact form and so on.',
-      image: portfolio
-    },
-    {
       title: "Typescript - Puppies",
       live: "https://puppies-library.vercel.app/",
       source: "https://github.com/nikkizhou/Puppy-Library",
       description: 'A fullstack app with CRUD operations where user can add, edit, delete and check details of the puppies in the library.',
       image: puppy
+    },
+    {
+      title: "Portfolio",
+      live: "",
+      source: "https://github.com/nikkizhou/portfolio",
+      description: 'A frontend app to introduce Nikki as a fullstack developer. Providing features such as cv downloading, social media connecting, contact form and so on.',
+      image: portfolio
     },
   ]
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumePDF from './../../assets/CV Nikki Zhou.pdf';
+import ResumePDF from './../../assets/Nikki Zhou CV.pdf';
 import './Resume.css'
 import { ResumeIcon} from './ResumeButton';
 
